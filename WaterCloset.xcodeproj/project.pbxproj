@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		27E2BBA82274148100B9C2D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E2BBA72274148100B9C2D2 /* AppDelegate.swift */; };
-		27E2BBAA2274148100B9C2D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E2BBA92274148100B9C2D2 /* ViewController.swift */; };
 		27E2BBAD2274148100B9C2D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27E2BBAB2274148100B9C2D2 /* Main.storyboard */; };
 		27E2BBAF2274148300B9C2D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27E2BBAE2274148300B9C2D2 /* Assets.xcassets */; };
 		27E2BBB22274148300B9C2D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27E2BBB02274148300B9C2D2 /* LaunchScreen.storyboard */; };
+		27E2BBBA227414A000B9C2D2 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E2BBB9227414A000B9C2D2 /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		27E2BBA42274148100B9C2D2 /* WaterCloset.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaterCloset.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27E2BBA72274148100B9C2D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		27E2BBA92274148100B9C2D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		27E2BBAC2274148100B9C2D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		27E2BBAE2274148300B9C2D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27E2BBB12274148300B9C2D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		27E2BBB32274148300B9C2D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27E2BBB9227414A000B9C2D2 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +54,22 @@
 		27E2BBA62274148100B9C2D2 /* WaterCloset */ = {
 			isa = PBXGroup;
 			children = (
+				27E2BBBB227414AE00B9C2D2 /* View Controllers */,
 				27E2BBA72274148100B9C2D2 /* AppDelegate.swift */,
-				27E2BBA92274148100B9C2D2 /* ViewController.swift */,
 				27E2BBAB2274148100B9C2D2 /* Main.storyboard */,
 				27E2BBAE2274148300B9C2D2 /* Assets.xcassets */,
 				27E2BBB02274148300B9C2D2 /* LaunchScreen.storyboard */,
 				27E2BBB32274148300B9C2D2 /* Info.plist */,
 			);
 			path = WaterCloset;
+			sourceTree = "<group>";
+		};
+		27E2BBBB227414AE00B9C2D2 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				27E2BBB9227414A000B9C2D2 /* MapViewController.swift */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27E2BBAA2274148100B9C2D2 /* ViewController.swift in Sources */,
 				27E2BBA82274148100B9C2D2 /* AppDelegate.swift in Sources */,
+				27E2BBBA227414A000B9C2D2 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
